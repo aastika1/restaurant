@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+  a{
+    text-decoration:none ;
+    color:white;
+  }
+  a:hover {
+    color:orange;
+  }
+  .main-bg {
+    /* The image used */
+    background-image: url("../images/1.png");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+  }
+  .brunch1{
+    font-family: 'Brush Script MT', cursive;
+  }
+  .website{
+      color:#ad6c12;
+      font-weight: bold;
+      font-size:25px;
+  }
+ 
+  .text-block {
+    position: relative;
+    width:300px;
+    height:200px;
+    background-color: white;
+    color: black;
+    opacity:0.45;
+    top: 45%;
+    left: 35%;
+    margin-top: 90px;
+    margin-left: 65px;
+  }
+  @media (max-width: 768px) {
+    .text-block {
+      position: relative;
+      left: 0;
+      top:0;
+      margin-left: 0;
+      margin-top:0;
+      max-width:100%;
+      min-width:100%;
+    }
+  }
+
+  .head_main{
+     
+      color:black;
+      font-size: 45px;
+      text-align: center;
+  }
+  .head_sub{
+    background-color: pink;
+    color:black;
+    font-size: 20px;
+    text-align: center;
+
+  }
+  .head{
+      font-size:18px;
+  }
+  .indian{
+      position:relative;
+      background-color: #2a3b40;
+      color:white;
+}
+  .tastes{
+    position:relative;
+      background-color: #d3d3d3;
+      color:black;
+      margin-top:-6%;
+
+  }
+  .image{
+    min-width:100%;
+    max-height:240px;
+}
+}
+.sub_text{
+    color:#2a3b40;
+}
+
+.child_div{
+
+width:60vw;
+height:60vh;
+position:absolute;
+left:20%;
+top:100%;
+background: #dddddd;
+
+    }
+    @media (max-width: 767px) {
+        .child_div {
+          position: relative;
+          left: 0;
+          top:0;
+          margin-left: 0;
+          margin-top:0;
+          max-width:100%;
+          min-width:100%;
+        }
+      }
+   
+      .text-block1{
+        position: relative;
+        max-width:80%;
+        background-color: white;
+        color: black;
+        top: 45%;
+        left: 9%;
+        opacity:0.75;
+      }
+      @media (min-width: 768px) {
+        .text-block1 {
+          /* position: relative;
+          left: 0;
+          top:0; */
+          margin-left: 0;
+          margin-top:0;
+         /* max-width:100%; */
+       
+        }
+      } 
+    
+      .submain-bg {
+        /* The image used */
+        background-image: url("1.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+     
+      }
+      .hi{
+          background-color: coral;
+
+      }
+      .text{
+        
+          font-family: 'Brush Script MT', cursive;
+          font-size:45px;
+
+        }
+        .subtext{
+          color:#FFA500;
+          font-size:30px;
+        }
+        .card1{
+          min-width:100%;
+         
+        }
+       
+        @media (max-width: 767) {
+          .card1{
+            position: relative;
+            
+            max-width:100%;
+            min-width:100%;
+          }
+        }
+        
+        .tradition{
+          background-color:#d4d8d9;
+        }
+      .dot{
+        align-items:center;
+      }
+      .menu1{
+        background-color:#d4d8d9;
+        /* opacity:0.75; */
+        /* margin-top:20%; */
+      }
+      .menu_img{
+        position:relative;
+        top:27%;
+        right:7%;
+        max-width:70%;
+      }
+      .menu2{
+        background-color: #2a3b40;
+      }
+      .dropdown{
+        color: white;
+      }
+      .submit{
+        position:relative;
+        left:37%;
+        top:10%;
+        width:100px;
+      }
+      .footer{
+        background-color:#d4d8d9;
+        /* opacity:0.75; */
+       
+      }
+ 
+      
+    
+      
+
+
+
+  
